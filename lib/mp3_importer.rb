@@ -1,13 +1,13 @@
 require 'pry'
 class Artist
 
-  attr_accessor :name 
+  attr_accessor :name
 
   @@all = []
 
   def initialize(name)
-    @name = name 
-  end 
+    @name = name
+  end
 
   
 
@@ -35,4 +35,4 @@ class Artist
 
 
 
-end 
+end
